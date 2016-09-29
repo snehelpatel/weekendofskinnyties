@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;}
+
+body{margin:0px;
+  font-family:
+'Signika Negative', sans-serif;}
+
+
+ul.list-of-prices {
+  background: #fa6938;
+  margin:0px;
+  color:white;
+padding:9px;}
+
+#freeshipping{
+  background-color: #C7522B;}
+
+ul.list-of-prices > li {
+list-style:none;
+display:inline;
+margin:5px;
+font-size:12px;
+font-weight:normal;}
+
+.skinny-logo{height:40px;}
+
+.tie-variations{list-style:none;
+display:inline;}
+
+ul.menu {height:400px;}
+
+ul.menu > li {list-style:none;
+display:inline;
+margin:10px;
+}
+
+ul.menu > li > img{height:60px;}
