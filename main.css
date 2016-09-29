@@ -3,7 +3,11 @@
 
 body{margin:0px;
   font-family:
-'Signika Negative', sans-serif;}
+'Signika Negative', sans-serif;
+}
+
+ul{list-style: none;
+display:inline;}
 
 
 ul.list-of-prices {
@@ -24,14 +28,20 @@ font-weight:normal;}
 
 .skinny-logo{height:40px;}
 
-.tie-variations{list-style:none;
-display:inline;}
-
-ul.menu {height:400px;}
+ul.menu {height:400px;
+padding-left:10px;
+margin:0px;}
 
 ul.menu > li {list-style:none;
 display:inline;
-margin:10px;
+margin-left:13.5px;
+font-size:20px;
 }
 
-ul.menu > li > img{height:60px;}
+ul.menu > li > img{height:100px;}
+
+.tie-variations {
+  list-style:none;
+}
+.lil-tie {
+  float:left;}
