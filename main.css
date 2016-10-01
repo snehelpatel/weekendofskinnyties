@@ -5,6 +5,7 @@ body{margin:0px;
   font-family:
 'Marvel', sans-serif;
 width:1100px;
+height:1600px;
 }
 
 ul > li {}
@@ -98,9 +99,11 @@ margin:8px;}
 .three img {
   width:290px;}
 
-#bottom-bar{margin-left:40px;}
+.second-bar{margin-left:40px;
+  height:400px;
+}
 
-#bottom-bar > h2 {
+.second-bar > h2 {
 float:left;
   /*float:left;*/
   margin:30px;
@@ -109,7 +112,7 @@ float:left;
   }
 
 h2 > div{
-  display:block;
+
 }
 
 .bottom-content > img {
@@ -121,26 +124,43 @@ h2 > div{
 .bottom-content{
 font-size:15px;
   /*display:inline;*/
+}
+.sub{
+  float:left;
+  margin:12px;
+}
+
+#sub-info:first-child{margin-top:5px;}
+
+#sub-info{color:lightgray;}
+
+.one{
+  list-style: none;
+}
+
+.two{
+  float:right;
+  list-style: none;
+  position:relative;
+  width:250px;
+  background-color:#A0A1CE;
+  color:white;
+  border:3px solid #8998AD;
+  position:relative;
+}
+
+#here-for-you{
+  font-size:25px;
+}
+
+#here-for-right{
+  font-size:20px;
+  position:absolute;
+  top:30px;
+  right:0px;
 
 }
 
-
-/*#wrap {
-    overflow: hidden;
-    position: relative;
-    float: left;
+#here-for-left > p{
+  margin:0px;
 }
-
-#wrap img.fake {
-    float: left;
-    visibility: hidden;
-    width: auto;
-}
-
-#img_wrap {
-    position: absolute;
-}
-
-#img_wrap img.normal {
-    width: 30%;
-}​*/
