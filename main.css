@@ -54,12 +54,20 @@ ul.menu > li {
 
 ul.menu > li > img{height:90px;}
 
+#perf{
+    background-image: url(./hard-mode/assets/perforated-bottom@2x.png);
+    background-repeat: repeat-x;
+    height:8px;}
+#perf > img {visibility: hidden;}
+
+
 .tie-variations {
   text-align: center;
   list-style:none;
   background-color:#f9f8f6;
   height: 310px;
-  margin-top:0px;
+  margin:0px;
+
 }
 .lil-tie{
 display:inline;}
@@ -91,6 +99,10 @@ margin:8px;
   color:#009CFF;
   font-size:18px;
 }
+
+#cross-hash{
+    background-image: url(./hard-mode/assets/hatch-light@2x.png);
+    background-repeat: repeat-x;}
 
 .three{
   display:inline;
@@ -125,6 +137,13 @@ h2 > div{
 font-size:15px;
   /*display:inline;*/
 }
+
+#perf2{
+    background-image: url(./hard-mode/assets/perforated-bottom@2x.png);
+    background-repeat: repeat-x;
+    height:8px;}
+#perf2 > img {visibility: hidden;}
+
 .sub{
   float:left;
   margin:12px;
@@ -142,15 +161,18 @@ font-size:15px;
   float:right;
   list-style: none;
   position:relative;
-  width:250px;
+  width:280px;
+  height:109px;
+  padding:10px;
   background-color:#A0A1CE;
   color:white;
   border:3px solid #8998AD;
-  position:relative;
+
 }
 
 #here-for-you{
   font-size:25px;
+  margin-bottom:10px;
 }
 
 #here-for-right{
