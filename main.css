@@ -34,7 +34,10 @@ letter-spacing:2px;
 margin-right:50px;}
 
 /*#cart-bar{float:right;}*/
-#search-bar{float:right;}
+#search-bar{float:right;
+position:absolute;
+bottom:25px;
+left:820px;}
 
 #cart-bar {
   background: url('./hard-mode/assets/sprite@2x.png') no-repeat -90px -32px;
@@ -43,9 +46,9 @@ margin-right:50px;}
   	height: 19px;
     zoom:.5;
     float:right;
-    position: absolite
-    bottom:10px;
-    left:10px;
+    position: absolute;
+    bottom:65px;
+    left:1350px;
 }
 
 #mag-glass {
@@ -56,8 +59,10 @@ margin-right:50px;}
   zoom:.5;
   float:right;
   position:absolute;
-  bottom:10px;
-
+  float: right;
+  position: absolute;
+  right: 450px;
+  bottom: 40px;
 
 }
 
@@ -70,6 +75,12 @@ position:relative;}
 
 .menu-options{
   font-size: 20px;
+}
+
+.sign-in {
+  position:absolute;
+  top:30px;
+  left:850px;
 }
 
 
@@ -108,6 +119,7 @@ font-size: 10px;}
   height: 325px;
   margin:0px;
   padding:0px;
+  position:relative;
 
 }
 .lil-tie{
@@ -120,6 +132,57 @@ margin-top:0px;
 margin-left:14px;
 margin-right:14px;
 }
+
+#blue{
+  position:absolute;
+  right:810px;
+}
+  #black{
+    position:absolute;
+right:900px;
+
+  }
+    #collegiate{
+      position:absolute;
+      right:700px;
+
+
+    }
+      #cotton{
+        position:absolute;
+        right:620px;;
+
+
+      }
+        #favorites{
+          position:absolute;
+          right:525px;
+
+
+        }
+          #graphics{
+            position:absolute;
+            right:430px;
+
+          }
+            #plaid{
+              position:absolute;
+              right:360px;
+
+
+            }
+              #silk{
+                position:absolute;
+                right:270px;
+
+              }
+                #striped{
+                  position:absolute;
+                  right:160px;
+
+                }
+
+
 
 .start-dressing-better {
   text-align: center;
