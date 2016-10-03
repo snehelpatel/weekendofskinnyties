@@ -5,7 +5,7 @@ This repo contains HTML and CSS created to match an existing website called skin
 
 Through this assignment, we were able to utilize more of what we learned about creating layouts with css.
 
-Including
+**Including**
 * floats
 * positions
 * display setting
