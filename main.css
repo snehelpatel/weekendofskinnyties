@@ -131,9 +131,34 @@ margin-right:14px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    position:relative;
 
 }
 
+#bow-tie{position:absolute;
+top:40px;
+left:330px;
+font-size: 25px;
+}
+
+#pocket{
+  position:absolute;
+  top:40px;
+left:640px;
+font-size: 25px;
+
+}
+
+#pocket > p {
+  margin:0px;
+}
+
+#ties {
+  position:absolute;
+  top:40px;
+  left:900px;
+  font-size: 25px;
+}
 
 .family-owned{font-size: 35px;
     font-style: italic;
@@ -289,11 +314,13 @@ line-height: 20px;
   background-color:#A0A1CE;
   color:white;
   border:3px solid #8998AD;
+  border-radius: 3px;
 
 }
 
 #here-for-you{
   font-size:25px;
+  letter-spacing: 1px;
   margin-bottom:10px;
 }
 
