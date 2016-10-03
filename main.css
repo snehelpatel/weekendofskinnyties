@@ -38,18 +38,19 @@ font-weight:normal;}
   	width: 28px;
     padding-left:29px;
   	height: 19px;
-
+    zoom:.5;
 }
 
 #mag-glass {
 	background: url('./hard-mode/assets/sprite@2x.png') no-repeat -30px -30px;
 	width: 26px;
   padding-left:26px;
-	height: 26px;
+	height: 40px;
+  zoom:.5;
 }
 
 ul.menu {
-  height:90px;
+  height:98px;
   margin-top:0px;
   margin-bottom:0px;
   margin-left:85px;}
@@ -75,8 +76,9 @@ ul.menu > li > img{height:90px;}
 #perf{
     background-image: url(./hard-mode/assets/perforated-bottom@2x.png);
     background-repeat: repeat-x;
-    height:8px;}
-#perf > img {visibility: hidden;}
+    background-size:40px;
+    height:4px;}
+
 
 
 .tie-variations {
@@ -85,35 +87,48 @@ ul.menu > li > img{height:90px;}
   background-color:#f9f8f6;
   height: 310px;
   margin:0px;
+  padding:0px;
 
 }
 .lil-tie{
 display:inline;}
 
-.lil-tie > img {height:50%;
-width:60px;
-margin:8px;
+.lil-tie > img {
+height:43%;
+width:59px;
+margin-top:0px;
+margin-left:14px;
+margin-right:14px;
 }
 
 .start-dressing-better {
   text-align: center;
-      font-size: 60px;
-      padding-top: 20px;}
+      font-size: 62px;
+      padding-top: 65px;}
 
 .three-bottom-boxes{
   text-align: center;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+
 }
 
-.family-owned{font-size: 40px;
-  text-align: center;
-  margin-top: 100px;}
+.family-owned{font-size: 35px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+
+}
 
 .family-owned > p {
   margin:0px;
 }
 
 #story {
-  margin:5px;
+  margin:15px;
   color:#009CFF;
   font-size:18px;
 }
@@ -201,8 +216,9 @@ line-height: 20px;
 #perf2{
     background-image: url(./hard-mode/assets/perforated-bottom@2x.png);
     background-repeat: repeat-x;
-    height:8px;}
-#perf2 > img {visibility: hidden;}
+    background-size:40px;
+    height:4px;}
+
 
 .sub{
   float:left;
